@@ -19,10 +19,10 @@ class MainActivity : AppCompatActivity() {
 
 
     fun logging() {
-        Log.e(TAG, "ERROR: a serious error like an app crash")
-        Log.w(TAG, "WARN: warns about the potential for serious errors")
-        Log.i(TAG, "INFO: reporting technical information, such as an operation succeeding")
-        Log.d(TAG, "DEBUG: reporting technical information useful for debugging")
+        Log.e(TAG, "ERROR: アプリクラッシュ")
+        Log.w(TAG, "WARN:  重大なエラーの可能性")
+        Log.i(TAG, "INFO: 操作の引き継ぎなど、技術的な情報を報告する")
+        Log.d(TAG, "DEBUG:  デバッグに役立つ技術情報を報告")
         Log.v(TAG, "VERBOSE: more verbose than DEBUG logs")
     }
 }
